@@ -1,0 +1,233 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background:  url(nen.jpg)   no-repeat center center fixed;
+  background-size: cover;
+  transition: 1s;
+}
+
+
+body.dark{
+  background: url(nen3.jpg) no-repeat center center fixed;
+  background-size: cover;
+  transition: 1s;
+}
+
+#nen{
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nentrong{
+  margin: 300px auto;
+  width: 660px;
+  height: 1100px;
+  background-color: white;
+  box-shadow: 0px 10px 30px  rgba(0, 0, 0.25);
+  border-radius: 50px;
+  position: relative;
+  border: none;
+}
+
+.vien{
+  width: 240px;
+  height: 240px;
+  top: 195px;
+  border-radius: 100%;
+  background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #6902be 75%, #bc1888 100%);
+  position: absolute
+}
+
+
+.avata{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  position: absolute;
+  border-radius: 100%;
+  top: 210px;
+  border: 5px solid black;
+  box-shadow: 0px 10px 25px  rgba(0,0,0.15);
+}
+
+
+
+#ten{
+  position: absolute;
+  top : 420px;
+}
+
+.ten >li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tickxanh{
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+}
+
+
+.name{
+  font-family: georgia;
+  font-size: 50px;
+  color:	#CC99FF ;
+   -webkit-animation: my 1000ms infinite;
+	 -moz-animation: my 1100ms infinite; 
+	 -o-animation: my 1200ms infinite; 
+	 animation: my 1200ms infinite;
+  
+}
+
+#gt{
+  position: absolute;
+  top : 550px;
+}
+
+#gt2{
+  position: absolute;
+  top : 580px;
+}
+
+#diachihead{
+  position: absolute;
+  top : 610px;
+}
+
+.gps{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.diachi{
+  font-size: 20px;
+}
+
+.diachi > li {
+  display: inline-block;
+}
+
+
+#fl{
+  position: absolute;
+  text-align: center;
+  top: 680px;
+}
+
+.fl > li{
+  display: inline-block;
+  margin-right: 35px;
+}
+
+
+
+#banquyen{
+  position: absolute;
+  top: 1200px;
+}
+
+h5{
+  text-align: center;
+}
+
+
+#mxh{
+  position: absolute;
+  top: 825px;
+}
+
+.mxh > li{
+  list-style: none;
+  float: left;
+}
+
+.mxh > li > a > img{
+  width: 90px;
+  height: 90px;
+  margin-right: 30px;
+  border-radius: 100%;
+  box-shadow: 0px 10px 5px 0px black;
+  transition: 0.5s;
+  border: 1px solid black;
+}
+
+.mxh > li > a > img:active{
+  box-shadow: none;
+  transform: transLateY(10px);
+}
+
+
+#wrapper{
+  margin: 60px auto;
+  padding-top: 130px;
+  padding-left: 215px;
+  
+}
+
+
+.switch{
+width: 100px;
+height: 50px;
+appearance: none;
+background: url(nen3.jpg);
+  background-size: cover;
+border-radius: 25px;
+  border:1px solid black;
+  position: relative;
+  transition: 1s;
+}
+
+.switch::before{
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 2.5px;
+  left: 5px; 
+  background:gray ;
+  border-radius: 100%;
+  transition: 1s;
+  border: 1px solid black;
+}
+
+
+.switch:checked{
+background: url(nen.jpg) ;
+  background-size: cover;
+  border: 1px solid black;
+  transition: 1s;
+}
+.switch:checked:before{
+left: 53%;     
+  background: gray;
+border: 1px solid }
+
+
+
+@-webkit-keyframes my {
+	 0% { color: #CC99FF; } 
+	 50% { color: violet;  } 
+	 100% { color: CC99FF;  } 
+ }
+ @-moz-keyframes my { 
+	 0% { color: #CC99FF;  } 
+	 50% { color: violet;  }
+	 100% { color: #CC99FF;  } 
+ }
+ @-o-keyframes my { 
+	 0% { color: #CC99FF; } 
+	 50% { color: violet; } 
+	 100% { color: CC99FF;  } 
+ }
+ @keyframes my { 
+	 0% { color: #CC99FF;  } 
+	 50% { color: violet;  }
+	 100% { color: #CC99FF;  } 
+ } 
+
+
